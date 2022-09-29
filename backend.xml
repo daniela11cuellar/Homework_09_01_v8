@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "API Testing">
+    <test name = "Regression Backend">
+        <classes>
+            <class name = "backend.tests.RoomGetTest" />
+            <class name = "backend.tests.PostCredentialsTest" />
+            <class name = "backend.tests.PostBookingTest" />
+        </classes>
+    </test>
+</suite>

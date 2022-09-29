@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "UI Testing">
+    <listeners>
+        <listener class-name="frontend.utils.ListenerTest"/>
+    </listeners>
+
+    <test name = "Regression Library">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.loc.gov/"/>
+        <classes>
+            <class name = "frontend.tests.TestCasesLibrary" />
+        </classes>
+    </test>
+</suite>

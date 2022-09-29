@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 220.894 s <<< FAILURE! - in TestSuite
+$verifyThatTheCarrouselHasFiveItems(frontend.tests.TestCasesLibrary)  Time elapsed: 10.483 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0I3ILBP', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49286}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\USER~1.DES\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 000a620cfa40013cf81869f161009f2b
+*** Element info: {Using=class name, value=slick-current}
+	at frontend.tests.TestCasesLibrary.$verifyThatTheCarrouselHasFiveItems(TestCasesLibrary.java:38)
+
+verifyThatTheTopSearchesWork(frontend.tests.TestCasesLibrary)  Time elapsed: 10.46 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0I3ILBP', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49286}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\USER~1.DES\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 000a620cfa40013cf81869f161009f2b
+*** Element info: {Using=xpath, value=//a[contains(@id, 'top_searches')]}
+	at frontend.tests.TestCasesLibrary.verifyThatTheTopSearchesWork(TestCasesLibrary.java:52)
+
+verifyThatTheUrlIsTheExpected(frontend.tests.TestCasesLibrary)  Time elapsed: 10.475 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0I3ILBP', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:49286}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\USER~1.DES\AppData...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 000a620cfa40013cf81869f161009f2b
+*** Element info: {Using=class name, value=header-logo}
+	at frontend.tests.TestCasesLibrary.verifyThatTheUrlIsTheExpected(TestCasesLibrary.java:26)
+
