@@ -32,7 +32,7 @@ public class TestCasesLibrary extends BaseTestClass {
     @Test(retryAnalyzer = Retry.class, priority=1, groups = {"HomeTestCases"})
     public void $verifyThatTheCarrouselHasFiveItems() {
         int count = 1;
-        int maxPage = 5;
+        int maxPage = 4;
 
         home = new Home(driver);
         String paging = home.getPaging();

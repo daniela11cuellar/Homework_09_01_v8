@@ -4,7 +4,7 @@ import org.testng.ITestResult;
 
 public class Retry implements IRetryAnalyzer {
     private int count = 1;
-    private static int maxTry = 5;
+    private static int maxTry = 4;
     @Override
     public boolean retry(ITestResult iTestResult) {
         if (!iTestResult.isSuccess()) {                      //Check if test not succeed
