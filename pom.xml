@@ -81,8 +81,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <configuration>
                         <suiteXmlFiles>
-
-                            <suiteXmlFile>frontend.xml</suiteXmlFile>
+                            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
